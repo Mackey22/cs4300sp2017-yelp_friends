@@ -4,7 +4,7 @@
 from .models import Docs
 import os
 import json
-import numpy as np
+#import numpy as np
 import Levenshtein
 from collections import defaultdict
 from helpers import sort_dict_by_val

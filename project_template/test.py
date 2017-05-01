@@ -76,7 +76,9 @@ def find_most_similar(topMatches, unique_ids, business_id_to_name, id1, destCity
         name = info[0]
         city = info[1]
         state = info[2]
-        full_address = info[3] 
+        full_address = info[3]
+        print("topMatchesRow[i]: " + str(topMatchesRow[i]))
+        print("contributing_words: " + str(contributing_words))
         words = contributing_words[topMatchesRow[i]]
         extra_info = api_business_info(name, full_address)
         if extra_info != []:

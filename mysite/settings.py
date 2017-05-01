@@ -25,7 +25,7 @@ SECRET_KEY = '%7n9073fc-x#*shon1!*o@o4*b^*h9yx3jm=$^fd0k)cv0lp01'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-env.gb72uicht2.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['django-env.gb72uicht2.us-east-1.elasticbeanstalk.com', 'cs4300-yelp-retrieval-dev.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
